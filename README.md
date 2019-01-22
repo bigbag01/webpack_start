@@ -1,4 +1,6 @@
-# webpack
+# webpack-start
+**这是一个初始化的webpack项目，可以用于任何项目的起步。配置文件中的每一项基本都加了注释说明，以供参考**
+
 创建项目的时候，安装了webpack之后还会提示要安装webpack-cli，本地安装之后依旧会出现安装提示，再全局安装一下webpack-cli就可以了，
 我安装的webpack版本是4.29.0，webpack-cli版本是3.2.1，本地全局的版本目前是一样的。
 
