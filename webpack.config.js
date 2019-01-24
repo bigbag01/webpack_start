@@ -57,8 +57,8 @@ module.exports={
     plugins:[
         // 在打包后的js文件中插入版权声明的插件
         new webpack.BannerPlugin('版权所有，翻版必究'),
-        // 压缩js代码
-        new webpack.optimize.UglifyJsPlugin(),
+        // 下面这句在webpack4.0之后不需要了，在webpack打包时，将mode设为production就会自动压缩js了。
+        // new webpack.optimize.UglifyJsPlugin(),
         // 自动生成index.html
         new HtmlWebpackPlugin({
             template: __dirname + "/app/index.tmpl.html"
